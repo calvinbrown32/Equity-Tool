@@ -1,0 +1,11 @@
+name: GIS_environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7*
+  - geopandas
+  - requests
+  - pandas
+  - numpy
+  - geojson
+  - folium
