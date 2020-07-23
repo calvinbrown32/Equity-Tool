@@ -1,0 +1,69 @@
+The first column of every downloaded file contains a unique ID that identifies the geography. The column name varies according to the data that has been downloaded. One of the following columns will be present:
+
+blkgrp U.S. Census Block Group 12 character ID
+tract U.S. Census Tract 11 character ID
+place U.S. Census Place 7 character ID
+county U.S. Census County 5 character ID
+mpo Unique 8 character ID
+county U.S. Census Congressional District 4 character ID
+For all downloads other than Block Groups and Tracts, the second column contains the name of the geography.
+
+name U.S. Census Name (or MPO Name)
+All files contain the following columns. These columms represent the breadth of data available through the H+T Map and H+T Fact Sheets with the exception of the five transit measures.*
+
+blkgrps Count of Census Block Groups
+population Total Population
+households Total Households
+land_acres Total Land Acres
+ht_ami Housing + Transportation Costs % Income for the Regional Typical Household
+ht_80ami Housing + Transportation Costs % Income for the Regional Moderate Household
+ht_nmi Housing + Transportation Costs % Income for the National Typical Household
+h_ami Housing Costs % Income for the Regional Typical Household
+h_80ami Housing Costs % Income for the Regional Moderate Household
+h_nmi Housing Costs % Income for the National Typical Household
+t_ami Transportation Costs % Income for the Regional Typical Household
+t_80ami Transportation Costs % Income for the Regional Moderate Household
+t_nmi Transportation Costs % Income for the National Typical Household
+co2_per_hh_local Annual GHG per Household
+co2_per_acre_local Annual GHG per Acre
+autos_per_hh_ami Autos per Household for the Regional Typical Household
+autos_per_hh_80ami Autos per Household for the Regional Moderate Household
+autos_per_hh_nmi Autos per Household for the National Typical Household
+vmt_per_hh_ami Annual Vehicle Miles Traveled per Household for the Regional Typical Household
+vmt_per_hh_80ami Annual Vehicle Miles Traveled per Household for the Regional Moderate Household
+vmt_per_hh_nmi Annual Vehicle Miles Traveled per Household for the National Typical Household
+pct_transit_commuters_ami Transit Ridership % of Workers for the Regional Typical Household
+pct_transit_commuters_80ami Transit Ridership % of Workers for the Regional Moderate Household
+pct_transit_commuters_nmi Transit Ridership % of Workers for the National Typical Household
+t_cost_ami Annual Transportation Cost for the Regional Typical Household
+t_cost_80ami Annual Transportation Cost for the Regional Moderate Household
+t_cost_nmi Annual Transportation Cost for the National Typical Household
+auto_ownership_cost_ami Annual Auto Ownership Cost for the Regional Typical Household
+auto_ownership_cost_80ami Annual Auto Ownership Cost for the Regional Moderate Household
+auto_ownership_cost_nmi Annual Auto Ownership Cost for the National Typical Household
+vmt_cost_ami Annual VMT Cost for the Regional Typical Household
+vmt_cost_80ami Annual VMT Cost for the Regional Moderate Household
+vmt_cost_nmi Annual VMT Cost for the National Typical Household
+transit_cost_ami Annual Transit Cost for the Regional Typical Household
+transit_cost_80ami Annual Transit Cost for the Regional Moderate Household
+transit_cost_nmi Annual Transit Cost for the National Typical Household
+transit_trips_ami Annual Transit Trips for the Regional Typical Household
+transit_trips_80ami Annual Transit Trips for the Regional Moderate Household
+transit_trips_nmi Annual Transit Trips for the National Typical Household
+compact_ndx Compact Neighborhood Score (0-10)
+emp_ovrll_ndx Job Access Score (0-10)
+res_density Residential Density
+gross_hh_density Gross Household Density
+hh_gravity Regional Household Intensity
+frac_sfd Percent Single Family Detached Households
+emp_gravity Employment Access Index
+emp_ndx Employment Mix Index (0-100)
+block_size Average Block Size in Acres
+intersection_density Intersection Density in Square Miles
+avg_block_perimeter_meters Average Block Perimeter in Meters
+h_cost Average Monthly Housing Cost
+median_smoc Median Selected Monthly Owner Costs
+median_gross_rent Median Gross Monthly Rent
+pct_owner_occupied_hu Percent Owner Occupied Housing Units
+pct_renter_occupied_hu Percent Renter Occupied Housing Unit
+* The Transit Connectivity Index (0-100), Transit Access Shed, Jobs within Transit Access Shed, Average Available Transit Trips per Week, and Transit Access Score (0-10) measures are not available for download.
